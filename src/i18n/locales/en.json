@@ -83,7 +83,8 @@
     ],
     "ctaHeadline": "Ready to build something real?",
     "ctaBody": "Good work takes time. We have both. Let's talk.",
-    "ctaButton": "Get in touch"
+    "ctaButton": "Get in touch",
+    "heroHighlightWord": "endures."
   },
   "purpose": {
     "heroLabel": "OUR PURPOSE",
@@ -267,7 +268,7 @@
     "colCompany": "Company",
     "colNetwork": "Network",
     "colConnect": "Connect",
-    "copyright": "© 2025 Influencing Digital. All rights reserved.",
+    "copyright": "© 2026 Influencing Digital. All rights reserved.",
     "privacy": "Privacy Policy"
   }
 }

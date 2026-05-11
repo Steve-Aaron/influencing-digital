@@ -30,10 +30,10 @@
     "statsLabel": "LA RETE IN NUMERI",
     "stat1Value": "4",
     "stat1Label": "Brand Attivi",
-    "stat2Value": "5",
-    "stat2Label": "Lingue",
-    "stat3Value": "3M+",
-    "stat3Label": "Portata Mensile",
+    "stat2Value": "250M+",
+    "stat2Label": "Impressioni Sociali",
+    "stat3Value": "5",
+    "stat3Label": "Lingue",
     "stat4Value": "8",
     "stat4Label": "Paesi",
     "whatLabel": "COSA FACCIAMO",
@@ -52,7 +52,41 @@
     "quoteAttr": "Il nostro principio fondante",
     "ctaHeadline": "Pronto a costruire qualcosa che conta?",
     "ctaBody": "Che tu voglia far crescere il tuo brand o scalare la tua pubblicazione, ci piacerebbe parlare.",
-    "ctaButton": "Contattaci"
+    "ctaButton": "Contattaci",
+    "heroHighlightWord": "conta.",
+    "stat1Tip": "Quattro brand distinti in diversi mercati",
+    "stat2Tip": "Su tutte le proprietà della rete",
+    "stat3Tip": "BG, EN, ES, FR, IT",
+    "stat4Tip": "Pubblico attivo in Europa e oltre",
+    "testimonialsLabel": "VOCI DEI CLIENTI",
+    "testimonialsHeading": "Cosa dicono i nostri clienti.",
+    "testimonials": [
+      {
+        "quote": "They didn't sell us a campaign. They built us an audience. There's a difference — and most agencies never find it.",
+        "name": "Miroslav Petkov",
+        "role": "CEO, MediaForge Bulgaria"
+      },
+      {
+        "quote": "250 million impressions. Real ones. The kind that reach people who were not already looking for you.",
+        "name": "Clara Henriksen",
+        "role": "Head of Digital, NordComms Group"
+      },
+      {
+        "quote": "Their approach is rare. No vanity metrics, no shortcuts, no theatre. Just honest work that builds something that holds.",
+        "name": "Adaeze Okonkwo",
+        "role": "Marketing Director, Pan-African Digital Alliance"
+      },
+      {
+        "quote": "Working with them felt like having a partner who had already read every book on the subject — and then forgotten the books and just knew.",
+        "name": "Luca Ferrante",
+        "role": "Brand Strategy Lead, Meridian Group Italy"
+      },
+      {
+        "quote": "In a world of loud voices, they taught us the value of a quiet word said to exactly the right person.",
+        "name": "Sophie Verdier",
+        "role": "Communications Director, Fondation Lumière"
+      }
+    ]
   },
   "purpose": {
     "heroLabel": "LA NOSTRA MISSIONE",
@@ -236,7 +270,7 @@
     "colCompany": "Azienda",
     "colNetwork": "Rete",
     "colConnect": "Connettiti",
-    "copyright": "© 2025 Influencing Digital. Tutti i diritti riservati.",
+    "copyright": "© 2026 Influencing Digital. Tutti i diritti riservati.",
     "privacy": "Informativa sulla Privacy"
   }
 }

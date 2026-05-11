@@ -30,10 +30,10 @@
     "statsLabel": "МРЕЖАТА В ЧИСЛА",
     "stat1Value": "4",
     "stat1Label": "Активни Марки",
-    "stat2Value": "5",
-    "stat2Label": "Езика",
-    "stat3Value": "3M+",
-    "stat3Label": "Месечен Обхват",
+    "stat2Value": "250M+",
+    "stat2Label": "Социални Импресии",
+    "stat3Value": "5",
+    "stat3Label": "Езика",
     "stat4Value": "8",
     "stat4Label": "Държави",
     "whatLabel": "КАКВО ПРАВИМ",
@@ -52,7 +52,41 @@
     "quoteAttr": "Нашият основополагащ принцип",
     "ctaHeadline": "Готови ли сте да изградите нещо, което има значение?",
     "ctaBody": "Независимо дали искате да развиете марката си или да мащабирате публикацията си, ние бихме искали да поговорим.",
-    "ctaButton": "Свържете се с нас"
+    "ctaButton": "Свържете се с нас",
+    "heroHighlightWord": "значение.",
+    "stat1Tip": "Четири различни марки в различни пазари",
+    "stat2Tip": "Из всички имоти на мрежата",
+    "stat3Tip": "БГ, EN, ES, FR, IT",
+    "stat4Tip": "Активна аудитория из Европа и отвъд",
+    "testimonialsLabel": "ГЛАСОВЕ НА КЛИЕНТИ",
+    "testimonialsHeading": "Какво казват нашите клиенти.",
+    "testimonials": [
+      {
+        "quote": "They didn't sell us a campaign. They built us an audience. There's a difference — and most agencies never find it.",
+        "name": "Miroslav Petkov",
+        "role": "CEO, MediaForge Bulgaria"
+      },
+      {
+        "quote": "250 million impressions. Real ones. The kind that reach people who were not already looking for you.",
+        "name": "Clara Henriksen",
+        "role": "Head of Digital, NordComms Group"
+      },
+      {
+        "quote": "Their approach is rare. No vanity metrics, no shortcuts, no theatre. Just honest work that builds something that holds.",
+        "name": "Adaeze Okonkwo",
+        "role": "Marketing Director, Pan-African Digital Alliance"
+      },
+      {
+        "quote": "Working with them felt like having a partner who had already read every book on the subject — and then forgotten the books and just knew.",
+        "name": "Luca Ferrante",
+        "role": "Brand Strategy Lead, Meridian Group Italy"
+      },
+      {
+        "quote": "In a world of loud voices, they taught us the value of a quiet word said to exactly the right person.",
+        "name": "Sophie Verdier",
+        "role": "Communications Director, Fondation Lumière"
+      }
+    ]
   },
   "purpose": {
     "heroLabel": "НАШАТА МИСИЯ",
@@ -236,7 +270,7 @@
     "colCompany": "Компания",
     "colNetwork": "Мрежа",
     "colConnect": "Свържете се",
-    "copyright": "© 2025 Influencing Digital. Всички права запазени.",
+    "copyright": "© 2026 Influencing Digital. Всички права запазени.",
     "privacy": "Политика за Поверителност"
   }
 }

@@ -113,13 +113,21 @@ export default function Home() {
   const testimonials = t('home.testimonials', { returnObjects: true }) || [];
 
   /*
-   * Hero headline: third line has 'endures' highlighted.
+   * Hero headline: third line wraps the locale-specific highlight word in a span.
+   * heroHighlightWord is the word to highlight (e.g. "endures." in EN).
    * AnimatedLines accepts React nodes, so we pass a JSX element for the last line.
    */
+  const line3Raw   = t('home.heroLine3');
+  const highlight  = t('home.heroHighlightWord');
+  const hlIdx      = highlight ? line3Raw.lastIndexOf(highlight) : -1;
+  const line3Node  = hlIdx !== -1
+    ? <>{line3Raw.slice(0, hlIdx)}<span className="hero-highlight">{highlight}</span>{line3Raw.slice(hlIdx + highlight.length)}</>
+    : line3Raw;
+
   const heroLines = [
     t('home.heroLine1'),
     t('home.heroLine2'),
-    <>that <span className="hero-highlight">endures.</span></>,
+    line3Node,
   ];
 
   return (
