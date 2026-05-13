@@ -11,6 +11,11 @@ import Services from './pages/Services';
 import Affiliation from './pages/Affiliation';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import ZdravRazum from './pages/brands/ZdravRazum';
+import BulgariaWatch from './pages/brands/BulgariaWatch';
+import ForwardBG from './pages/brands/ForwardBG';
+import TraditionFuture from './pages/brands/TraditionFuture';
+import PeopleOfBulgaria from './pages/brands/PeopleOfBulgaria';
 
 // Page transition wrapper
 function PageTransition({ children }) {
@@ -69,6 +74,11 @@ function AppInner() {
           <Route path="/affiliation" element={<Affiliation />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/brands/zdrav-razum" element={<ZdravRazum />} />
+          <Route path="/brands/bulgaria-watch" element={<BulgariaWatch />} />
+          <Route path="/brands/forward-bg" element={<ForwardBG />} />
+          <Route path="/brands/tradition-future" element={<TraditionFuture />} />
+          <Route path="/brands/people-of-bulgaria" element={<PeopleOfBulgaria />} />
         </Routes>
       </PageTransition>
       <Footer />

@@ -5,32 +5,54 @@ import { motion } from 'framer-motion';
 import { FadeUp } from '../components/AnimatedText';
 import SEOHead from '../components/SEOHead';
 
+/* Each brand: key matches locale keys, slug is the internal route */
 const BRANDS = [
   {
     key: 'brand1',
+    slug: '/brands/zdrav-razum',
     img: 'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=900&q=80',
-    url: 'https://zdrav-razum.com',
     color: '#1a1a2e',
   },
   {
     key: 'brand2',
+    slug: '/brands/bulgaria-watch',
     img: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80',
-    url: '#',
     color: '#1e3a5f',
   },
   {
     key: 'brand3',
+    slug: '/brands/forward-bg',
     img: 'https://images.unsplash.com/photo-1467803738586-46b7eb7b16a1?w=900&q=80',
-    url: '#',
     color: '#1a3a1a',
   },
   {
     key: 'brand4',
+    slug: '/brands/tradition-future',
     img: 'https://images.unsplash.com/photo-1553729784-e91953dec042?w=900&q=80',
-    url: '#',
-    color: '#3d1515',
+    color: '#8B1A1A',
+  },
+  {
+    key: 'brand5',
+    slug: '/brands/people-of-bulgaria',
+    img: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=900&q=80',
+    color: '#5C3A1E',
   },
 ];
+
+/* For a 2-column grid we compute borders programmatically so the grid
+   works cleanly for any number of brands. */
+const COLS = 2;
+
+function borderStyle(index, total) {
+  const col      = index % COLS;
+  const row      = Math.floor(index / COLS);
+  const lastCol  = col === COLS - 1 || index === total - 1;
+  const lastRow  = index >= total - COLS || index === total - 1;
+  return {
+    borderRight:  lastCol ? 'none' : '1px solid var(--border)',
+    borderBottom: lastRow ? 'none' : '1px solid var(--border)',
+  };
+}
 
 export default function Brands() {
   const { t } = useTranslation();
@@ -54,20 +76,30 @@ export default function Brands() {
         {/* ── Brand cards ── */}
         <section className="section section-border">
           <div className="container">
-            <div className="brands-grid">
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: `repeat(${COLS}, 1fr)`,
+              border: '1px solid var(--border)',
+            }}>
               {BRANDS.map((b, i) => (
                 <motion.div
                   key={b.key}
                   className="brand-card"
+                  style={borderStyle(i, BRANDS.length)}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-60px' }}
-                  transition={{ delay: i * 0.1, duration: 0.65, ease: [0.33, 1, 0.68, 1] }}
+                  transition={{ delay: i * 0.09, duration: 0.65, ease: [0.33, 1, 0.68, 1] }}
                 >
                   <div style={{ overflow: 'hidden', position: 'relative' }}>
-                    <img src={b.img} alt={t(`brands.${b.key}Name`)} className="brand-card-img" />
+                    <img
+                      src={b.img}
+                      alt={t(`brands.${b.key}Name`)}
+                      className="brand-card-img"
+                    />
                     <div style={{
-                      position: 'absolute', inset: 0,
+                      position: 'absolute',
+                      inset: 0,
                       background: `linear-gradient(to top, ${b.color}cc 0%, transparent 60%)`,
                     }} />
                   </div>
@@ -75,14 +107,9 @@ export default function Brands() {
                     <div className="brand-card-tag">{t(`brands.${b.key}Tag`)}</div>
                     <div className="brand-card-name">{t(`brands.${b.key}Name`)}</div>
                     <p className="brand-card-desc">{t(`brands.${b.key}Desc`)}</p>
-                    <a
-                      href={b.url}
-                      target={b.url !== '#' ? '_blank' : undefined}
-                      rel="noopener noreferrer"
-                      className="brand-card-link"
-                    >
+                    <Link to={b.slug} className="brand-card-link">
                       {t('common.viewBrand')}
-                    </a>
+                    </Link>
                   </div>
                 </motion.div>
               ))}

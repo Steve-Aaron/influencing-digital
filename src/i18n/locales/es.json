@@ -24,7 +24,7 @@
     "heroLine1": "Construimos",
     "heroLine2": "influencia digital",
     "heroLine3": "que importa.",
-    "heroSub": "Una red de marcas digitales que moldea la opinión, construye comunidad y genera impacto en Europa y más allá.",
+    "heroSub": "Sondeos de nuevos medios diseñados para ayudarte a entender lo que está pasando en el mundo.",
     "heroCta1": "Explorar nuestra red",
     "heroCta2": "Trabajar con nosotros",
     "statsLabel": "LA RED EN CIFRAS",
@@ -38,7 +38,7 @@
     "stat4Label": "Países",
     "whatLabel": "QUÉ HACEMOS",
     "whatHeadline": "Creamos, operamos y hacemos crecer marcas digitales que mueven a las personas.",
-    "whatBody": "No a través del ruido, sino de la sustancia. Nuestra red de marcas crea contenido que conecta, campañas que convierten y comunidades que perduran.",
+    "whatBody": "Hoy en día, más del 75% de la población mundial está en línea. Y más del 70% del mundo está en las redes sociales. Creamos y comisariamos contenido diseñado para llegar a esas personas y generar insights útiles para marcas y creadores.",
     "feat1Title": "Contenido que genera confianza",
     "feat1Body": "Cada historia que contamos está fundamentada en datos y elaborada con cuidado. Sin atajos.",
     "feat2Title": "Campañas que convierten",
@@ -62,27 +62,27 @@
     "testimonialsHeading": "Lo que dicen nuestros clientes.",
     "testimonials": [
       {
-        "quote": "They didn't sell us a campaign. They built us an audience. There's a difference — and most agencies never find it.",
+        "quote": "Most consultants arrive with a framework already formed. These people arrived with curiosity. By the time they delivered anything, they had asked enough good questions that we understood our own readers better than we had in years. The work followed naturally from that.",
         "name": "Miroslav Petkov",
         "role": "CEO, MediaForge Bulgaria"
       },
       {
-        "quote": "250 million impressions. Real ones. The kind that reach people who were not already looking for you.",
+        "quote": "250 million impressions sounds abstract until you ask who was behind them. These were people who had never encountered us before and were still reading three paragraphs in. That is a different kind of scale entirely.",
         "name": "Clara Henriksen",
         "role": "Head of Digital, NordComms Group"
       },
       {
-        "quote": "Their approach is rare. No vanity metrics, no shortcuts, no theatre. Just honest work that builds something that holds.",
+        "quote": "They took the brief seriously without taking it literally. That distinction matters more than most agencies acknowledge. The work landed because it was honest about what we were actually trying to say.",
         "name": "Adaeze Okonkwo",
         "role": "Marketing Director, Pan-African Digital Alliance"
       },
       {
-        "quote": "Working with them felt like having a partner who had already read every book on the subject — and then forgotten the books and just knew.",
+        "quote": "I have worked with people who are technically excellent and people with good instincts. Finding both together is genuinely unusual. They also have strong opinions, which helps more than it might sound — partners without conviction produce cautious work.",
         "name": "Luca Ferrante",
         "role": "Brand Strategy Lead, Meridian Group Italy"
       },
       {
-        "quote": "In a world of loud voices, they taught us the value of a quiet word said to exactly the right person.",
+        "quote": "We had spent years broadcasting to everyone and landing with almost nobody. They helped us find the people for whom our work was genuinely relevant. Finding the right thirty thousand turned out to be worth considerably more than the wrong three million.",
         "name": "Sophie Verdier",
         "role": "Communications Director, Fondation Lumière"
       }
@@ -135,7 +135,10 @@
     "joinLabel": "ÚNETE A NUESTRA RED",
     "joinHeadline": "¿Construyes algo que merece una audiencia?",
     "joinBody": "Siempre buscamos agregar nuevas marcas a nuestra red. Si tienes una visión para una propiedad digital que pueda generar un impacto real, queremos escucharte.",
-    "joinCta": "Habla con nosotros →"
+    "joinCta": "Habla con nosotros →",
+    "brand5Name": "Gente de Bulgaria",
+    "brand5Tag": "Historias Comunitarias · Bulgaria",
+    "brand5Desc": "Historias reales de búlgaros reales — capturando las voces, elecciones y vidas cotidianas de personas ordinarias en todo el país y la diáspora."
   },
   "partners": {
     "heroLabel": "NUESTROS SOCIOS",

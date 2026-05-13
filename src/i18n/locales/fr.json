@@ -24,7 +24,7 @@
     "heroLine1": "Nous construisons",
     "heroLine2": "une influence numérique",
     "heroLine3": "qui compte.",
-    "heroSub": "Un réseau de marques numériques qui façonne les opinions, construit des communautés et génère un impact en Europe et au-delà.",
+    "heroSub": "Des sondages dans les nouveaux médias conçus pour vous aider à comprendre ce qui se passe dans le monde.",
     "heroCta1": "Explorer notre réseau",
     "heroCta2": "Travailler avec nous",
     "statsLabel": "LE RÉSEAU EN CHIFFRES",
@@ -38,7 +38,7 @@
     "stat4Label": "Pays",
     "whatLabel": "CE QUE NOUS FAISONS",
     "whatHeadline": "Nous créons, opérons et développons des marques numériques qui touchent les gens.",
-    "whatBody": "Pas par le bruit, mais par la substance. Notre réseau de marques crée du contenu qui résonne, des campagnes qui convertissent et des communautés qui durent.",
+    "whatBody": "Aujourd'hui, plus de 75 % de la population mondiale est en ligne. Et plus de 70 % du monde est présent sur les réseaux sociaux. Nous créons et sélectionnons des contenus conçus pour atteindre ces personnes et produire des insights utiles pour les marques et les créateurs.",
     "feat1Title": "Un contenu qui génère la confiance",
     "feat1Body": "Chaque histoire que nous racontons est fondée sur des données et réalisée avec soin. Sans raccourcis.",
     "feat2Title": "Des campagnes qui convertissent",
@@ -62,27 +62,27 @@
     "testimonialsHeading": "Ce que disent nos clients.",
     "testimonials": [
       {
-        "quote": "They didn't sell us a campaign. They built us an audience. There's a difference — and most agencies never find it.",
+        "quote": "Most consultants arrive with a framework already formed. These people arrived with curiosity. By the time they delivered anything, they had asked enough good questions that we understood our own readers better than we had in years. The work followed naturally from that.",
         "name": "Miroslav Petkov",
         "role": "CEO, MediaForge Bulgaria"
       },
       {
-        "quote": "250 million impressions. Real ones. The kind that reach people who were not already looking for you.",
+        "quote": "250 million impressions sounds abstract until you ask who was behind them. These were people who had never encountered us before and were still reading three paragraphs in. That is a different kind of scale entirely.",
         "name": "Clara Henriksen",
         "role": "Head of Digital, NordComms Group"
       },
       {
-        "quote": "Their approach is rare. No vanity metrics, no shortcuts, no theatre. Just honest work that builds something that holds.",
+        "quote": "They took the brief seriously without taking it literally. That distinction matters more than most agencies acknowledge. The work landed because it was honest about what we were actually trying to say.",
         "name": "Adaeze Okonkwo",
         "role": "Marketing Director, Pan-African Digital Alliance"
       },
       {
-        "quote": "Working with them felt like having a partner who had already read every book on the subject — and then forgotten the books and just knew.",
+        "quote": "I have worked with people who are technically excellent and people with good instincts. Finding both together is genuinely unusual. They also have strong opinions, which helps more than it might sound — partners without conviction produce cautious work.",
         "name": "Luca Ferrante",
         "role": "Brand Strategy Lead, Meridian Group Italy"
       },
       {
-        "quote": "In a world of loud voices, they taught us the value of a quiet word said to exactly the right person.",
+        "quote": "We had spent years broadcasting to everyone and landing with almost nobody. They helped us find the people for whom our work was genuinely relevant. Finding the right thirty thousand turned out to be worth considerably more than the wrong three million.",
         "name": "Sophie Verdier",
         "role": "Communications Director, Fondation Lumière"
       }
@@ -135,7 +135,10 @@
     "joinLabel": "REJOIGNEZ NOTRE RÉSEAU",
     "joinHeadline": "Vous construisez quelque chose qui mérite une audience ?",
     "joinBody": "Nous cherchons toujours à ajouter de nouvelles marques à notre réseau. Si vous avez une vision pour une propriété numérique capable de créer un impact réel, nous voulons vous entendre.",
-    "joinCta": "Parlez-nous →"
+    "joinCta": "Parlez-nous →",
+    "brand5Name": "Les Gens de Bulgarie",
+    "brand5Tag": "Histoires Communautaires · Bulgarie",
+    "brand5Desc": "De vraies histoires de vrais Bulgares — capturant les voix, les choix et le quotidien de gens ordinaires à travers le pays et la diaspora."
   },
   "partners": {
     "heroLabel": "NOS PARTENAIRES",
