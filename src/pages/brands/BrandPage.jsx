@@ -252,7 +252,7 @@ export default function BrandPage({
               </FadeUp>
               <FadeUp delay={0.1}>
                 <p className="body-lg" style={{ color: 'var(--text-muted)', marginBottom: '2rem' }}>
-                  {name} is one of five brands in the Influencing Digital network — each built to serve
+                  {name} is one of five brands in the Influencing Digital network, each built to serve
                   a distinct audience with a distinct purpose.
                 </p>
                 <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>

@@ -4,13 +4,13 @@ import BrandPage from './BrandPage';
 const BRAND = {
   name: 'Tradition & Future',
   tag: 'Cultural Media · Bulgaria',
-  description: 'Celebrating Bulgarian cultural heritage while connecting it to contemporary life and modern values. The argument that what a culture remembers about itself shapes what it becomes.',
-  about1: 'Tradition & Future starts from a conviction that Bulgarian cultural heritage is not a museum exhibit — it is a living resource. Folklore, craft, ritual, and language carry accumulated knowledge about how communities have survived and organised themselves. The platform\'s job is to make that knowledge legible to a contemporary audience without flattening or romanticising it.',
+  description: 'Bulgarian cultural heritage is a living resource. Tradition & Future publishes stories about what that resource contains, how it has been used, and what it might still be worth to people who have not yet thought to ask.',
+  about1: 'Tradition & Future begins with a useful observation: a culture that forgets its own methods for surviving difficulty is not liberated; it is merely less equipped. Bulgarian folklore, craft, ritual, and language carry accumulated knowledge about how communities have organised themselves under pressure. The platform makes that knowledge legible to people who would benefit from it but may not know where to look.',
   about2: 'The editorial approach is curious rather than reverential. Tradition & Future publishes stories about where Bulgarian traditions come from, how they have changed, what they mean to the people who still practise them, and what contemporary life might learn from them. It also publishes stories about traditions that have been lost and whether they are worth recovering.',
   pillars: [
     {
       title: 'Living traditions',
-      body: 'Stories about Bulgarians who are still practising traditional crafts, customs, and arts — not as heritage tourism, but as a genuine part of their lives. The people behind the practices, not just the practices themselves.',
+      body: 'Stories about Bulgarians who are still practising traditional crafts, customs, and arts; for them, this is a genuine part of daily life, not a performance for tourists. The people behind the practices, not just the practices themselves.',
     },
     {
       title: 'Cultural heritage',

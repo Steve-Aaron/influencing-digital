@@ -4,9 +4,9 @@ import BrandPage from './BrandPage';
 const BRAND = {
   name: 'Zdrav Razum',
   tag: 'Political Campaign · Bulgaria',
-  description: 'A bold, data-driven political campaign bringing pragmatic common sense to Bulgarian public discourse. Zdrav Razum — "Common Sense" — makes the case that good governance is less about ideology and more about evidence.',
-  about1: 'Zdrav Razum was built on a simple premise: that Bulgarian political discourse had become so saturated with performance and tribalism that the basic question — what actually works? — had stopped being asked. The campaign exists to ask it, consistently, using polling, comparative research, and documented policy outcomes from across Europe.',
-  about2: 'Where other political voices compete to be the loudest, Zdrav Razum competes to be the most useful. That means publishing numbers when they are uncomfortable, crediting ideas from across the political spectrum when they have worked, and refusing to treat voters as an audience to be managed rather than a public to be served.',
+  description: 'Zdrav Razum, which translates as "Common Sense," makes the case that good governance is less about ideology and more about evidence. A data-driven campaign for a public discourse that takes its own citizens seriously.',
+  about1: 'Zdrav Razum was built on a simple premise. Bulgarian political discourse had become so saturated with performance and tribalism that a basic question had stopped being asked: what actually works? The campaign exists to ask it, consistently, using polling, comparative research, and documented policy outcomes from across Europe.',
+  about2: 'Where other political voices compete to be the loudest, Zdrav Razum competes to be the most useful. That means publishing numbers when they are uncomfortable, crediting ideas from across the political spectrum when they have worked, and treating voters as a public to be informed rather than an audience to be managed.',
   pillars: [
     {
       title: 'Evidence-based positions',
